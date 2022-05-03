@@ -1,0 +1,697 @@
+
+
+<!DOCTYPE html>
+<html
+  lang="fr" dir="ltr">
+
+  <head>
+    
+    <base href="/uclouvain/documents/1941179">
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>RERO ILS: UCLouvain</title>
+    <link rel="shortcut icon" href="/static/favicon.ico" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+      href="/static/apple-touch-icon-144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+      href="/static/apple-touch-icon-114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+      href="/static/apple-touch-icon-72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57"
+      href="/static/apple-touch-icon-57-precomposed.png" />
+      <link rel="stylesheet" href="/static/dist/css/global.59dc810908b8dced153c.css" />
+      
+      <link href="/static/css/uclouvain.css" rel="stylesheet"
+      title="uclouvain">
+      
+  </head>
+
+  <body ng-csp  class="d-flex flex-column"
+     itemscope itemtype="http://schema.org/WebPage" data-spy="scroll"
+    data-target=".scrollspy-target" id="view-uclouvain" >
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+          <header class="sticky-top">
+    <!-- SEARCH NAVBAR :: Brand / search / expand ========================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark rero-ils-header">
+      <div class="container d-flex align-self-center justify-content-between">
+            
+            <a href="/uclouvain" class="navbar-brand pr-2" id="homepage-logo">
+              <img class="rero-ils-logo navbar-brand" src="/static/images/uclouvain/logo.png" alt="RERO ILS logo">
+            </a>
+          <main-search-bar
+            class="flex-grow-1"
+            placeholder="Chercher"
+            viewcode="uclouvain"
+            language="fr"
+          ></main-search-bar>
+          <button class="navbar-toggler ml-2" type="button"
+                  data-toggle="collapse" data-target="#mobileHide"
+                  aria-controls="mobileHide" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span>
+          </button>
+      </div>
+    </nav>
+    <!-- MAIN NAVBAR :: Main menus (visible only on large screens) ======== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rero-ils-first-menu py-0 pr-0 d-none d-lg-block">
+      <div class="container">
+      <!-- link menus -->
+        <ul class="navbar-nav container collapse justify-content-start">
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://uclouvain.be/fr/bibliotheques" id=library-link-menu>Bibliothèques et learning centers</a>
+        </li>
+      </ul>
+      <!-- User menus -->
+      <ul class="navbar-nav container collapse justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="https://proxy.bib.ucl.ac.be/proxy-bib?url=https://ils.bib.uclouvain.be/uclouvain/documents/1941179" id=proxy-menu><i class="fa fa-globe"></i> Accès à distance ?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed " data-toggle="collapse" role="button"
+             aria-controls="collapseExample" aria-expanded="false"
+             href="#tool"
+             id=tools-menu
+          >
+           <i class="fa fa-wrench"></i> Outils
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed " data-toggle="collapse" role="button"
+             aria-controls="collapseExample" aria-expanded="false"
+             href="#menu"
+             id=language-menu
+          >
+           <i class="fa fa-language"></i> Français
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed py-1" data-toggle="collapse" role="button"
+             aria-controls="collapseExample" aria-expanded="false"
+             href="#profile"
+             id=my-account-menu
+          >
+           
+<span class="btn btn-sm btn-success">
+    <i class="fa fa-user"></i>
+    <span>Aatif, Soukaina</span>
+
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+      </div>
+    </nav>
+    <!-- SUBMENU NAVBAR =================================================== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white rero-ils-second-menu py-0 pr-0 d-none d-lg-block">
+      <div class="container flex-column" id="navbarHide">
+        
+          <div class="collapse rero-ils-collapse-menu flex-grow-1 w-100" data-parent="#navbarHide" id="tool">
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item ">
+                  <a class="nav-link" href="/uclouvain/search/collections" id=collections-menu><i class="fa fa-graduation-cap"></i> Exposition/cours</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="/help/public/" id=help-menu><i class="fa fa-info"></i> Aide</a>
+                </li>
+            </ul>
+          </div>
+          
+        
+          <div class="collapse rero-ils-collapse-menu flex-grow-1 w-100" data-parent="#navbarHide" id="menu">
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item ">
+                  <a class="nav-link" href="/lang/en" id=language-menu-en><i class="fa fa-language"></i> English</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="/lang/de" id=language-menu-de><i class="fa fa-language"></i> Deutsch</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="/lang/it" id=language-menu-it><i class="fa fa-language"></i> Italiano</a>
+                </li>
+            </ul>
+          </div>
+          
+        
+          <div class="collapse rero-ils-collapse-menu flex-grow-1 w-100" data-parent="#navbarHide" id="profile">
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item ">
+                  <a class="nav-link" href="/uclouvain/patrons/profile" id=profile-menu><i class="fa fa-book"></i> Mon compte</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="/signout/?next=%2Fuclouvain" id=logout-menu><i class="fa fa-sign-out"></i> Se déconnecter</a>
+                </li>
+            </ul>
+          </div>
+          
+        
+      </div>
+    </nav>
+    <!-- HIDDEN MENUS :: Only visible from medium to extra small screens == -->
+    <nav class="navbar-light bg-light d-lg-none d-xl-none border-bottom collapse" id="mobileHide">
+      <ul class="container navbar-nav navbar-collapse align-items-start list-group list-group-flush">
+        <li class="nav-item w-100 list-group-item bg-light">
+          <a class="nav-link" target="_blank" href="https://uclouvain.be/fr/bibliotheques" id=library-link-menu>Bibliothèques et learning centers</a>
+        </li>
+            <li class="nav-item  w-100 list-group-item bg-light">
+              <a href="https://proxy.bib.ucl.ac.be/proxy-bib?url=https://ils.bib.uclouvain.be/uclouvain/documents/1941179" class="nav-link" id=proxy-menu><i class="fa fa-globe"></i> Accès à distance ?</a>
+            </li>
+            <li class="nav-item w-100 list-group-item bg-light">
+              <a class="nav-link collapsed" href="#tool" data-toggle="collapse" role="button" aria-controls="collapseExample" aria-expanded="false" id=tools-menu><i class="fa fa-wrench"></i> Outils <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+              <ul class="nav collapse pl-2" id="tool" data-parent="#mobileHide">
+                  <li class="nav-item  w-100">
+                    <a class="nav-link" href="/uclouvain/search/collections" id=collections-menu><i class="fa fa-graduation-cap"></i> Exposition/cours</a>
+                  </li>
+                  <li class="nav-item  w-100">
+                    <a class="nav-link" href="/help/public/" id=help-menu><i class="fa fa-info"></i> Aide</a>
+                  </li>
+              </ul>
+            </li>
+            <li class="nav-item w-100 list-group-item bg-light">
+              <a class="nav-link collapsed" href="#menu" data-toggle="collapse" role="button" aria-controls="collapseExample" aria-expanded="false" id=language-menu><i class="fa fa-language"></i> Français <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+              <ul class="nav collapse pl-2" id="menu" data-parent="#mobileHide">
+                  <li class="nav-item  w-100">
+                    <a class="nav-link" href="/lang/en" id=language-menu-en><i class="fa fa-language"></i> English</a>
+                  </li>
+                  <li class="nav-item  w-100">
+                    <a class="nav-link" href="/lang/de" id=language-menu-de><i class="fa fa-language"></i> Deutsch</a>
+                  </li>
+                  <li class="nav-item  w-100">
+                    <a class="nav-link" href="/lang/it" id=language-menu-it><i class="fa fa-language"></i> Italiano</a>
+                  </li>
+              </ul>
+            </li>
+            <li class="nav-item w-100 list-group-item bg-light">
+              <a class="nav-link collapsed" href="#profile" data-toggle="collapse" role="button" aria-controls="collapseExample" aria-expanded="false" id=my-account-menu>
+<span class="btn btn-sm btn-success">
+    <i class="fa fa-user"></i>
+    <span>Aatif, Soukaina</span>
+ <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+              <ul class="nav collapse pl-2" id="profile" data-parent="#mobileHide">
+                  <li class="nav-item  w-100">
+                    <a class="nav-link" href="/uclouvain/patrons/profile" id=profile-menu><i class="fa fa-book"></i> Mon compte</a>
+                  </li>
+                  <li class="nav-item  w-100">
+                    <a class="nav-link" href="/signout/?next=%2Fuclouvain" id=logout-menu><i class="fa fa-sign-out"></i> Se déconnecter</a>
+                  </li>
+              </ul>
+            </li>
+      </ul>
+    </nav>
+</header>
+
+
+        <!-- BODY ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+          <div class="container">
+<header class="row py-2">
+    <a href="javascript:history.back()" class="col-12"><i class="fa fa-arrow-left"></i> Retour</a>
+</header>
+<div class="row">
+  <figure id="thumbnail" class="figure-img col-sm-2 d-sm-block figure text-center">
+    <img class="img-fluid img-thumbnail thumb"
+         src="None"
+         onerror="this.src='/static/images/icon_docmaintype_thesis.svg'" >
+    <figcaption class="figure-caption mt-2">
+      <ul class="list-unstyled mb-1">
+        
+          <li>mémoire</li>
+        
+      </ul>
+      <ul class="list-unstyled mb-0">
+         <!-- TODO: GENRE FORM LINK (not implemend with ref) -->
+        
+        <li class="figure-caption">
+          <i class="fa fa-tag mr-1"></i>
+          Thèses et écrits académiques
+        </li>
+        
+      </ul>
+    </figcaption>
+  </figure>
+  <div class="col-sm-10">
+    <h2>
+      Étude anthropométrique des fentes bilatérales selon Farkas
+    </h2>
+    <!-- TITLE_ALTERNATE_GRAPHIC -->
+    
+
+    <!-- CONTRIBUTION -->
+    
+    
+  <div>
+    Lenoir, Clément<span class="text-secondary"> (créateur)</span>&#8239;; Bayet, Bénédicte, promoteur<span class="text-secondary"> (superviseur académique)</span>&#8239;; UCL.. MEDE - Faculté de médecine et de médecine dentaire<span class="text-secondary"> (institution émettrice d'un diplôme)</span>
+  </div>
+
+    
+
+    <!-- PUBLICATION ACTIVITY: PUBLICATION -->
+    
+      
+      
+        <ul class="list-unstyled mb-0">
+          
+            <li>Bruxelles : UCL. Faculté de médecine et de médecine dentaire, 2017</li>
+          
+        </ul>
+      
+    
+
+    <!-- EXTENT -->
+    
+      <div>37 p.</div>
+    
+
+    <!-- DURATION -->
+    
+
+    <!-- EDITION STATEMENT-->
+    
+
+    <!-- FREQUENCY -->
+    
+
+    <!-- IS PART OF -->
+    
+
+    <!-- ISSUED WITH -->
+    
+      
+
+    
+
+    <!-- PRECEDED BY -->
+    
+      
+
+    
+
+    <!-- SUCCEEDED BY -->
+    
+      
+
+    
+
+    <!-- SUPPLEMENT TO -->
+    
+      
+
+    
+
+    <!-- REPRODUCTION OF -->
+    
+      
+
+    
+
+    <!-- ELECTRONIC LOCATOR (Other accesses, types in filters) -->
+    
+
+    <!-- SUMMARY -->
+    
+    <div class="pt-2">
+      
+        
+          <div>
+            <!--  -->
+            
+              <span data-show-more="Grâce aux données de l’ouvrage Anthropometry of the Head and Face de Leslie G Farkas nous procédons à des analyses anthropométriques de patients opérés à la naissance pour une fente bilatérale. L’objectif est d’abord de dresser un état des lieux de la prise ne charge des fentes bilatérales dans le CLP des Cliniques Universitaires Saint-Luc, en étudiant notamment l’évolution des séquelles post-opératoires avec la croissance, puis selon qu’ils ont été opérés durant les phases Mulliken I ou II. Dans la phase Mulliken I (jusque 2001) les patients étaient opérés avec entre autres une incision verticale de la pointe du nez qui devait aider à disséquer et replacer les cartilages alaires. Elle a été abandonnée après 2001 (phase Mulliken II) suite à la survenue d’une nécrose philtrale chez un enfant. On déterminera si l’abandon de cette incision permet d’obtenir des résultats comparables. Les résultats montrent des différences statistiquement significatives entre les patients opérés et la population saine, qui sont globalement concordantes avec les données de la littérature actuelle (nez plus large, columelle plus courte, lèvre supérieure totale et sa portion cutanée plus courtes également). On ne note pas de différence statistiquement significative entre les catégories d’âge qui pourraient refléter une tendance à l’aggravation ou à l’amélioration des séquelles post-opératoires pour chaque mesure. Pour parvenir à des résultats plus concluants il faudrait continuer à suivre à long terme notre cohorte de patients pour comparer leurs mesures entre le début de leur prose en charge et la fin de la croissance. On note en revanche des différences statistiquement significatives entre les phases Mulliken I et Mulliken II, avec des résultats qui tendent à montrer des valeurs plus proches de la normale dans le groupe Mulliken I. Ainsi la projection de la pointe du nez et la columelle seraient plus importantes. Le nez serait également moins large et la lèvre supérieure total plus grande dans ce groupe. Ces résultats sont à mettre en balance avec la taille des échantillons, un probable biais d’évaluation, ainsi qu’avec l’amplitude des différences observées par rapport au risque encouru. Il serait intéressant de fusionner la base de données de nos patients avec celle d’autres centres de prise en charge des fentes labio-palatines pour parvenir à former un échantillon probablement plus consistant et plus représentatif dans une étude multicentrique qui permette de procéder à des analyses plus poussées et statistiquement plus fiables.">
+                Grâce aux données de l’ouvrage Anthropometry of the Head and Face de Leslie G Farkas nous procédons à des analyses anthropométriques de patients opérés à la naissance pour une fente bilatérale. L’objectif est d’abord de dresser un état des lieux de la prise ne charge des fentes bilatérales dans le CLP des Cliniques Universitaires Saint-Luc, en étudiant notamment l’évolution des séquelles...
+              </span>
+              <a href="#" class="show-more">Montrer plus&hellip;</a>
+            
+          </div>
+        
+      
+        
+          <div>
+            <!--  -->
+            
+              <span data-show-more="Thanks to the database in Leslie G. Farkas’s book Anthropometry of the Head and Face we will proceed to several anthropometric analyses on patients who were operated at birth for a bilateral cleft. We will first compare the whole patients group with the general population to have an idea of the current results on the Clefts and Palate Center in the Saint-Luc University Hospital, notably by studying the evolution of post-surgery sequels with the growth, then by comparing two sub-groups of patients based on which surgical protocol they were operated with: Mulliken I or Mulliken II. Until 2001 patients were operated with a protocol we named Mulliken I which implied an incision on the tip of the nose. This incision was dropped from 2001 due to a necrosis of the philtrum on one patient, which led to a new protocol we named Mulliken II. We will determine whether or not the results are the same without this incision. Our results show statistically significant differences between the whole patients group and the general population which are globally the same as in every published study of other centers (wider nose, shorter columella, and as well, shorter total lip and its cutaneous portion). There is no significant differences in our study between any age groups which could allow us to conclude on an aggravation or improvement of the post-surgery sequels for any measurement with the growth. To obtain more conclusive results we should continue the follow-up of our patients to compare their measurements between their first consultations and the end of their growth. We however noted several significant differences between the Mulliken I and the Mulliken II, with results that tend to show that the measurements were closer to the normal with the Mulliken I protocol. The nose projection and columella were longer, the nose thinner and the total superior lip longer compared to the Mulliken II group. These results are to be balanced with the size of the samples, a notable bias of evaluation, as well the size of the difference compared to the risk of the incision. It would be interesting to merge our database with the one of other clefts centers to create a sample of patients probably much more representative of the reality in a multicentric study which would allow to proceed to deepest analysis and more statistically valid results.">
+                Thanks to the database in Leslie G. Farkas’s book Anthropometry of the Head and Face we will proceed to several anthropometric analyses on patients who were operated at birth for a bilateral cleft. We will first compare the whole patients group with the general population to have an idea of the current results on the Clefts and Palate Center in the Saint-Luc University Hospital, notably by...
+              </span>
+              <a href="#" class="show-more">Montrer plus&hellip;</a>
+            
+          </div>
+        
+      
+    </div>
+    
+
+    <!-- SUBJECTS TERM -->
+    
+    <div class="pt-2">
+    
+      <span class="badge badge-secondary my-0" title="Concept">
+        <i class="fa fa-tag"></i> Anthropometry - analysis
+      </span>
+    
+      <span class="badge badge-secondary my-0" title="Concept">
+        <i class="fa fa-tag"></i> Cleft Palate
+      </span>
+    
+      <span class="badge badge-secondary my-0" title="Concept">
+        <i class="fa fa-tag"></i> Cleft Lip
+      </span>
+    
+    </div>
+    
+  </div>
+</div>
+<section>
+  <article class="mt-4">
+    
+    <header>
+      <nav>
+        <ul class="nav nav-tabs" role="tablist">
+          
+          <li class="nav-item">
+            <a class="nav-link active" href="#documents-get" data-toggle="tab"
+               id="documents-get-tab" title="Obtenir" role="tab"
+               aria-controls="documents-get" aria-selected="true">
+              <i class="fa fa-list-ul"></i> Obtenir
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#documents-description" data-toggle="tab"
+               id="documents-description-tab" title="Description " role="tab"
+               aria-controls="documents-description" aria-selected="false">
+              <i class="fa fa-bars"></i> Description 
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <article class="tab-content">
+      
+      <section class="tab-pane show active p-1" id="documents-get" role="tabpanel" aria-labelledby="documents-get-tab">
+        
+        
+          <public-search-holdings
+            documentpid="1941179"
+            viewcode="uclouvain"
+          ></public-search-holdings>
+        
+      </section>
+      
+      <section class="tab-pane container" id="documents-description" role="tabpanel" aria-labelledby="documents-description-tab">
+        
+<div class="div-striped mt-2">
+  <!-- -------------- WORK / EXPRESSION -------------- -->
+
+  <!-- SUPPLEMENT, RELATED TO -->
+  
+    
+
+  
+
+  
+    
+
+  
+
+  <!-- NOTE (TYPE GENERAL) -->
+  
+
+  <!--CREDITS -->
+  
+
+  <!-- LANGUAGE -->
+  
+  <div class="row">
+    <div class="col-3 font-weight-bold">Langue</div>
+    <div class="col-9">
+      <ul class="list-inline">
+      
+        <li class="list-inline-item">français</li>
+      
+      </ul>
+    </div>
+  </div>
+  
+
+  <!-- ORIGINAL LANGUAGE -->
+  
+
+  <!-- ORIGINAL TITLE -->
+  
+
+  <!-- WORK ACCESS POINT -->
+  
+
+  <!-- TABLE OF CONTENTS -->
+  
+
+  <!-- DISSERTATION -->
+  
+  <div class="row">
+    <div class="col-3 font-weight-bold">Thèse, mémoire</div>
+    <div class="col-9">
+      <ul class="list-unstyled">
+      
+        
+          <li>Mémoire de recherche clinique -- UCL, 2017</li>
+        
+      
+      </ul>
+    </div>
+  </div>
+  
+
+  <!-- INTENTED AUDIENCE -->
+  
+
+  <!-- ILLUSTRATIVE CONTENT -->
+  
+
+  <!-- COLOR CONTENT -->
+  
+
+  <!-- SCALE -->
+  
+
+  <!-- CARTOGRAPHIC ATTRIBUTES -->
+  
+
+  <!-- CLASSIFICATION -->
+  
+
+
+  <!-- -------------- MANIFESTATION -------------- -->
+
+  <!-- USAGE AND ACCESS POLICY -->
+  
+  <div class="row">
+    <div class="col-3 font-weight-bold">Condition d'usage et d'accès</div>
+    <div class="col-9">
+      <ul class="list-inline">
+      
+        <li class="list-inline-item">Reproduction interdite</li>
+      
+      </ul>
+    </div>
+  </div>
+  
+
+  <!-- OTHER EDITION, OTHER PHYSICAL FORMAT, HAS REPRODUCTION -->
+  
+    
+
+  
+
+  
+    
+
+  
+
+  
+    
+
+  
+
+  <!-- TITLE (KEY TITLE, ABBREVIATED TITLE, VARIANT TITLE)-->
+  
+    
+    
+  
+
+  <!-- RESPONSABILITY STATEMENT -->
+  
+  <div class="row">
+    <div class="col-3 font-weight-bold">Mention de responsabilité</div>
+    <div class="col-9">
+      <ul class="list-unstyled">
+      
+        
+          <li>Clément Lenoir</li>
+        
+      
+        
+          <li>promoteur : Bénédicte Bayet</li>
+        
+      
+      </ul>
+    </div>
+  </div>
+  
+
+  <!-- SERIES STATEMENT -->
+  
+
+  <!-- PROVISION ACTIVITY STATEMENT (TYPES PRODUCTION, DIFFUSION/DISTRIBUTION, FABRICATION) -->
+  
+    
+    
+  
+
+  <!-- PROVISION ACTIVITY ORIGINAL DATE (TYPES PRODUCTION, DIFFUSION/DISTRIBUTION, FABRICATION) -->
+  
+    
+    
+  
+
+  <!-- COPYRIGHT DATE -->
+  
+
+  <!-- SEQUENCE NUMBERING -->
+  
+
+  <!-- DIMENSIONS -->
+  
+
+  <!-- BOOK FORMAT -->
+  
+
+  <!-- PRODUCTION METHOD -->
+  
+
+  <!-- NOTE (TYPE: CITED BY, OTHER PHYSICAL DETAILS, ACCOMPANYING MATERIAL) -->
+  
+
+  <!-- SUPPLEMENTARY CONTENT -->
+  
+
+  <!-- ACQUISITION TERMS -->
+  
+
+  <!-- IDENTIFIED BY -->
+  
+
+
+  <!-- -------------- TYPOLOGY -------------- -->
+
+  <!-- CONTENT MEDIA CARRIER -->
+  
+
+  <!-- ISSUANCE -->
+  
+  <div class="row">
+    <div class="col-3 font-weight-bold">Mode de parution</div>
+    <div class="col-9">
+      unité isolée / Unité matérielle
+    </div>
+  </div>
+  
+
+  <!-- PERMALINK -->
+  <div class="row">
+    <div class="col-3 font-weight-bold">Permalien</div>
+    <div class="col-9">
+      
+      <a href="https://ils.bib.uclouvain.be/uclouvain/documents/1941179">https://ils.bib.uclouvain.be/uclouvain/documents/1941179</a>
+    </div>
+  </div>
+</div>
+      </section>
+    </article>
+    
+  </article>
+</section>
+
+<footer class="pt-4 border-top rero-ils-detailed-view-footer">
+  <h5 class="d-inline-block">Formats d'export:</h5>
+  <ul class="list-inline d-inline-block">
+    <li>
+      <a
+        href="/uclouvain/documents/1941179/export/json?prettyprint=True">
+        JSON
+      </a>
+    </li>
+  </ul>
+</footer>
+          </div>
+        <!-- FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+          
+<footer class="rero-ils-footer border-top mt-4 bg-light d-flex">
+  <div class="container d-flex justify-content-center align-items-center py-4">
+    <p class="text-secondary mb-0">
+      Réalisé par
+      <a href="https://www.rero.ch" target="_blank">RERO+</a>
+      , en collaboration avec
+      <a href="https://uclouvain.be" target="_blank">l'UCLouvain</a>
+<!--      avec-->
+      |
+      <a href="https://github.com/rero/rero-ils" target="_blank">RERO ILS v1.10.0</a> &amp;
+      <a href="https://inveniosoftware.org" target="_blank">Invenio</a>
+    </p>
+  </div>
+</footer>
+
+        
+<script src="/static/dist/js/manifest.710f1c0c133f35c92c76.js"></script>
+<script src="/static/dist/js/1.1f0890f27e5cf97e00f3.js"></script>
+<script src="/static/dist/js/11.9f7ea09f94d1f7c5a922.js"></script>
+<script src="/static/dist/js/7.81e19dac9564d6bb1699.js"></script>
+<script nomodule defer src="/static/node_modules/@rero/rero-ils-ui/dist/search-bar/polyfills-es5.83959eb6f601d2cd4c00.js"></script>
+<script nomodule defer src="/static/node_modules/@rero/rero-ils-ui/dist/search-bar/main-es5.cc59668fb791f8361d6e.js"></script>
+<script type="module" src="/static/node_modules/@rero/rero-ils-ui/dist/search-bar/polyfills-es2015.1c5495f78ef2b86cdd78.js"></script>
+<script type="module" src="/static/node_modules/@rero/rero-ils-ui/dist/search-bar/main-es2015.cc59668fb791f8361d6e.js"></script>
+<script defer src="/static/node_modules/@rero/rero-ils-ui/dist/public-holdings-items/runtime-es5.a1ac991fc00ebf39524f.js"></script>
+<script defer src="/static/node_modules/@rero/rero-ils-ui/dist/public-holdings-items/runtime-es2015.a1ac991fc00ebf39524f.js"></script>
+<script defer src="/static/node_modules/@rero/rero-ils-ui/dist/public-holdings-items/polyfills-es2015.a3d4e7755086fb5bcb6e.js"></script>
+<script defer src="/static/node_modules/@rero/rero-ils-ui/dist/public-holdings-items/polyfills-es5.6246e13284dcd9fed099.js"></script>
+<script defer src="/static/node_modules/@rero/rero-ils-ui/dist/public-holdings-items/main-es5.ae3371a6730ba41a05c3.js"></script>
+<script defer src="/static/node_modules/@rero/rero-ils-ui/dist/public-holdings-items/main-es2015.ae3371a6730ba41a05c3.js"></script>
+
+        <!--
+
+  RERO ILS
+  Copyright (C) 2019 RERO
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU Affero General Public License as published by
+  the Free Software Foundation, version 3 of the License.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU Affero General Public License for more details.
+
+  You should have received a copy of the GNU Affero General Public License
+  along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setExcludedQueryParams", ["wp-admin"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.uclouvain.be/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '158']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+  </body>
+
+  </html>
